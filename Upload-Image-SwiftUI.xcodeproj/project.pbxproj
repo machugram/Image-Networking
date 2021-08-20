@@ -13,6 +13,12 @@
 		7B108B1326C83B7000B9A12E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B108B1226C83B7000B9A12E /* Preview Assets.xcassets */; };
 		7B108B1E26C83B7000B9A12E /* Upload_Image_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B108B1D26C83B7000B9A12E /* Upload_Image_SwiftUITests.swift */; };
 		7B108B2926C83B7000B9A12E /* Upload_Image_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B108B2826C83B7000B9A12E /* Upload_Image_SwiftUIUITests.swift */; };
+		7B108B3A26C83D2D00B9A12E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B108B3926C83D2D00B9A12E /* ImagePicker.swift */; };
+		7B7D92BD26CB213B00FB300D /* ImageNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D92BC26CB213B00FB300D /* ImageNetworking.swift */; };
+		7B7D92C226CB217D00FB300D /* ImageUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D92C126CB217D00FB300D /* ImageUploadView.swift */; };
+		7B7D92C726CBABB800FB300D /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D92C626CBABB800FB300D /* VideoPlayer.swift */; };
+		7BA3BB0126C86E1A00A67948 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA3BB0026C86E1A00A67948 /* Utils.swift */; };
+		7BFF244C26CCE1D0004CBF3B /* GIFVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFF244B26CCE1D0004CBF3B /* GIFVideoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		7B108B2426C83B7000B9A12E /* Upload-Image-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Upload-Image-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B108B2826C83B7000B9A12E /* Upload_Image_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upload_Image_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		7B108B2A26C83B7000B9A12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B108B3926C83D2D00B9A12E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		7B7D92BC26CB213B00FB300D /* ImageNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNetworking.swift; sourceTree = "<group>"; };
+		7B7D92C126CB217D00FB300D /* ImageUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadView.swift; sourceTree = "<group>"; };
+		7B7D92C626CBABB800FB300D /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		7BA3BB0026C86E1A00A67948 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7BFF244B26CCE1D0004CBF3B /* GIFVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFVideoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,12 @@
 				7B108B0F26C83B7000B9A12E /* Assets.xcassets */,
 				7B108B1426C83B7000B9A12E /* Info.plist */,
 				7B108B1126C83B7000B9A12E /* Preview Content */,
+				7B108B3926C83D2D00B9A12E /* ImagePicker.swift */,
+				7BA3BB0026C86E1A00A67948 /* Utils.swift */,
+				7B7D92BC26CB213B00FB300D /* ImageNetworking.swift */,
+				7B7D92C126CB217D00FB300D /* ImageUploadView.swift */,
+				7B7D92C626CBABB800FB300D /* VideoPlayer.swift */,
+				7BFF244B26CCE1D0004CBF3B /* GIFVideoView.swift */,
 			);
 			path = "Upload-Image-SwiftUI";
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7D92C726CBABB800FB300D /* VideoPlayer.swift in Sources */,
+				7B108B3A26C83D2D00B9A12E /* ImagePicker.swift in Sources */,
 				7B108B0E26C83B6D00B9A12E /* ContentView.swift in Sources */,
+				7B7D92BD26CB213B00FB300D /* ImageNetworking.swift in Sources */,
+				7B7D92C226CB217D00FB300D /* ImageUploadView.swift in Sources */,
+				7BFF244C26CCE1D0004CBF3B /* GIFVideoView.swift in Sources */,
 				7B108B0C26C83B6D00B9A12E /* Upload_Image_SwiftUIApp.swift in Sources */,
+				7BA3BB0126C86E1A00A67948 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,9 @@ import SwiftUI
 struct Upload_Image_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            ImageUploadView()
+//            VideoCard(url: URL(string: "https://bit.ly/swswift")!)
         }
     }
 }
